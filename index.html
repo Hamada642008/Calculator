@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <section class="section1"><input type="text" id="screen" readonly></section>
+        <section class="section2">
+            <button onclick="shownum(9)" >9</button>
+            <button onclick="shownum(8)">8</button>
+            <button onclick="shownum(7)">7</button>
+            <button onclick="deletenum()"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="shownum(6)">6</button>
+            <button onclick="shownum(5)">5</button>
+            <button onclick="shownum(4)">4</button>
+            <button onclick="shownum('÷')">÷</button>
+            <button onclick="shownum(3)">3</button>
+            <button onclick="shownum(2)">2</button>
+            <button onclick="shownum(1)">1</button>
+            <button onclick="shownum('×')">×</button>
+            <button onclick="shownum(0)">0</button>
+            <button onclick="shownum('.')">.</button>
+            <button onclick="shownum('+')">+</button>
+            <button onclick="shownum('-')">-</button>
+            <button onclick="deleteall()">DEL</button>
+            <button onclick="total()">=</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
